@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.title-text {
+  background: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.form-container {
+  padding: 20px;
+}
+
+.slide-controls {
+  display: flex;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.slide-controls input[type="radio"] {
+  display: none;
+}
+
+.slide {
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 0;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.slider-tab {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 2px;
+  background-color: #4CAF50;
+  transition: 0.3s ease;
+}
+
+.form-inner {
+  display: flex;
+  transition: 0.3s ease;
+}
+
+form {
+  width: 100%;
+  display: none;
+}
+
+form.active {
+  display: block;
+}
+
+.field {
+  margin-bottom: 15px;
+}
+
+.field input {
+  width: 100%;
+  padding: 12px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.field input:focus {
+  border-color: #4CAF50;
+}
+
+.field.btn input {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.field.btn input:hover {
+  background: #45a049;
+}
+
+.pass-link,
+.signup-link {
+  text-align: right;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.signup-link {
+  text-align: center;
+}
+
+.signup-link a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}

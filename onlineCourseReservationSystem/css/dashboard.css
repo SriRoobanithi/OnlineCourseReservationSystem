@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    height: 100px;
+}
+header div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.profile-icon i{
+    font-size: 40px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}
+#userdetail{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(246, 245, 245);
+    background-color: #333;
+    border-radius: 20px;
+    color: white;
+}
+#detail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+#coursedetail{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(246, 245, 245);
+    background-color: #333;
+    border-radius: 20px;
+    color: white;
+}
+#course{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+#imgs img{
+    border-radius: 10px;
+}
+#explore_btn{
+    background-color: #333;
+    color: white;
+    border: 1px solid white;
+    height: 50px;
+    width: 80px;
+    border-radius: 30px;
+}

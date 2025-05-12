@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign In & Sign Up</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 min-h-screen flex items-center justify-center">
+
+  <div class="bg-white shadow-2xl rounded-xl w-full max-w-md p-8">
+    <div class="flex justify-center mb-6">
+      <button id="signinTab" class="w-1/2 py-2 text-center font-bold text-indigo-600 border-b-2 border-indigo-600">Sign In</button>
+      <button id="signupTab" class="w-1/2 py-2 text-center font-bold text-gray-400 border-b-2 border-transparent">Sign Up</button>
+    </div>
+
+    <!-- Sign In Form -->
+    <form id="signinForm" class="space-y-4">
+      <input type="email" placeholder="Email" id="logemail" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400" required />
+      <input type="password" placeholder="Password" id="logpassword" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400" required />
+      <button type="submit" id="signin_btn" class="w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700">Sign In</button>
+    </form>
+
+    <!-- Sign Up Form -->
+    <form id="signupForm" class="space-y-4 hidden">
+      <input type="text" placeholder="Full Name" id="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400" required />
+      <input type="number" placeholder="Age" id="age" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400" required />
+      <input type="tel" placeholder="Contact Number" id="contactno" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400" required />
+      <input type="email" placeholder="Email" id="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400" required />
+      <input type="password" placeholder="Password" id="password" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400" required />
+      <button type="submit" id="signup_btn" class="w-full bg-pink-500 text-white py-2 rounded-lg hover:bg-pink-600">Sign Up</button>
+    </form>
+  </div>
+
+  <script src="../js/login.js">
+    
+  </script>
+</body>
+</html>
